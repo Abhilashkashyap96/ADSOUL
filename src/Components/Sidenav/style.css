@@ -1,0 +1,81 @@
+#sidenav {
+    width: 50%;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    
+  }
+  #sidenav .sectionOne{
+      background-color: rgb(115 91 255);
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      display: inline;
+  }
+  #sidenav .sectionOne #img{
+      background: url('../assets/asset1.svg') center no-repeat;
+      height: 200px;
+      width: auto;
+  }
+  #sidenav .sectionOne #heading{
+      color: white;
+      padding-left: 35px;
+  }
+  #sidenav .sectionTwo{
+    background-color: rgb(107 34 255);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: inline;
+}
+#sidenav .sectionTwo h1{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+#sidenav .sectionTwo #iconsFirstLine{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+#sidenav .sectionTwo #iconsSecondLine{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 80px;
+}
+#sidenav .sectionTwo #iconsFirstLine .icon1{
+    height: 50px;
+    width: auto;
+}
+#sidenav .sectionTwo #iconsFirstLine .icon1 p{
+    color: white;
+    font-size: 14px;
+}
+#sidenav .sectionTwo #iconsFirstLine .icon2{
+    height: 50px;
+    width: auto;
+}
+#sidenav .sectionTwo #iconsFirstLine .icon2 p{
+    color: white;
+    font-size: 14px;
+}
+#sidenav .sectionTwo #iconsSecondLine .icon3{
+    height: 50px;
+    width: auto;
+}
+#sidenav .sectionTwo #iconsSecondLine .icon3 p{
+    color: white;
+    font-size: 14px;
+}
+#sidenav .sectionTwo #iconsSecondLine .icon4{
+    height: 50px;
+    width: auto;
+}
+#sidenav .sectionTwo #iconsSecondLine .icon4 p{
+    color: white;
+    font-size: 14px;
+}
